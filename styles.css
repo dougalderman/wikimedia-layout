@@ -1,1 +1,64 @@
+* {
+  box-sizing: border-box;
+}
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 40px 80px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.right {
+  font-weight: bold;
+  text-align: right;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 1000px;
+  width: 100%;
+  margin: 40px 80px;
+}
+
+
+.rowItem {
+  width: 25%;
+  height: 250px:
+}
+
+.rowItem img {
+  width: inherit;
+  height: inherit;
+}
+footer {
+  text-align: center;
+  margin: 10px 20px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
